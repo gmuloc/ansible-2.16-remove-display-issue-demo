@@ -1,0 +1,12 @@
+---
+- name: Test
+  hosts: localhost
+  gather_facts: False
+
+  tasks:
+    - name: Running module
+      deprecated_removed:
+
+    - name: Debug
+      ansible.builtin.debug:
+        msg: "toto"
